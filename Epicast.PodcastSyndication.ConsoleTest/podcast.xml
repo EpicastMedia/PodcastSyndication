@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:npr="http://www.npr.org/rss/" xmlns:nprml="http://api.npr.org/nprml" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Hidden Brain</title>
+    <link>http://npr.org/series/423302056/hidden-brain</link>
+    <description><![CDATA[The Hidden Brain helps curious people understand the world – and themselves. Using science and storytelling, Hidden Brain's host Shankar Vedantam reveals the unconscious patterns that drive human behavior, the biases that shape our choices, and the triggers that direct the course of our relationships.]]></description>
+    <copyright>Copyright 2015 NPR - For Personal Use Only</copyright>
+    <generator>NPR API RSS Generator 0.94</generator>
+    <language>en-us</language>
+    <itunes:new-feed-url>https://www.npr.org/rss/podcast.php?id=510308</itunes:new-feed-url>
+    <itunes:summary><![CDATA[The Hidden Brain helps curious people understand the world – and themselves. Using science and storytelling, Hidden Brain's host Shankar Vedantam reveals the unconscious patterns that drive human behavior, the biases that shape our choices, and the triggers that direct the course of our relationships.]]></itunes:summary>
+    <itunes:subtitle><![CDATA[A conversation about life's unseen patterns.]]></itunes:subtitle>
+    <itunes:author>NPR</itunes:author>
+    <itunes:block>no</itunes:block>
+    <itunes:owner>
+      <itunes:email>podcasts@npr.org</itunes:email>
+      <itunes:name>NPR</itunes:name>
+    </itunes:owner>
+    <itunes:category text="Social Sciences"/>
+    <itunes:category text="Science &amp; Medicine"/>
+    <itunes:category text="Performing Arts"/>
+    <itunes:category text="Natural Sciences"/>
+    <itunes:category text="Literature"/>
+    <itunes:image href="https://media.npr.org/assets/img/2017/01/12/hiddenbrain_sq-c52ddc28021ba306c99f2a94f06e0f649b0b62cd.jpg?s=1400"/>
+    <image>
+      <url>https://media.npr.org/assets/img/2017/01/12/hiddenbrain_sq-c52ddc28021ba306c99f2a94f06e0f649b0b62cd.jpg?s=200</url>
+      <title>Hidden Brain</title>
+      <link>http://npr.org/series/423302056/hidden-brain</link>
+    </image>
+    <lastBuildDate>Tue, 14 Feb 2017 00:01:00 -0500</lastBuildDate>
+    <!-- Additional feed test cases -->
+    <itunes:category text="Technology">
+      <itunes:category text="Gadgets"/>
+    </itunes:category>
+    <itunes:category text="TV &amp; Film"/>
+    <itunes:category text="Arts">
+      <itunes:category text="Food">
+        <itunes:category text="American"/>
+      </itunes:category>
+    </itunes:category>
+    <!-- End additional feed test cases -->
+    <item>
+      <title>Episode 61: Just Sex</title>
+      <description><![CDATA[We all know casual sex isn't about love. But what if it's not even about lust? Sociologist Lisa Wade believes the pervasive hookup culture on campuses today is different from that faced by previous generations. This week on Hidden Brain, we explore what this culture means for those who choose to participate, and for those who opt out.]]></description>
+      <pubDate>Tue, 14 Feb 2017 00:01:00 -0500</pubDate>
+      <copyright>Copyright 2015 NPR - For Personal Use Only</copyright>
+      <guid>a46af22b-2cec-438e-9c0b-8362b1e36f3d</guid>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[We all know casual sex isn't about love. But what if it's not even about lust? Sociologist Lisa Wade believes the pervasive hookup culture on campuses today is different from that faced by previous generations. This week on Hidden Brain, we explore what this culture means for those who choose to participate, and for those who opt out.]]></itunes:summary>
+      <itunes:subtitle><![CDATA[We all know casual sex isn't about love. But what if it's not even about lust? Sociologist Lisa Wade believes the pervasive hookup culture on campuses today is different from that faced by previous generations. This week on Hidden Brain, we explore what this culture means for those who choose to participate, and for those who opt out.]]></itunes:subtitle>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/13/hookup_wide-b2508d0be00ffca26abe69c0b34002651f402fc7.jpg?s=1400"/>
+      <itunes:duration>1487</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <enclosure url="https://play.podtrac.com/npr-510308/npr.mc.tritondigital.com/NPR_510308/media/anon.npr-mp3/npr/hiddenbrain/2017/02/20170213_hiddenbrain_61.mp3?orgId=1&amp;d=1487&amp;p=510308&amp;story=515047133&amp;t=podcast&amp;e=515047133&amp;ft=pod&amp;f=510308" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Encore of Episode 20: Remembering Anarcha</title>
+      <description><![CDATA[A recent paper found that black patients receive less pain medication for broken bones and cancer. Black children receive less pain medication than white children for appendicitis. The research is new, but the phenomenon is not. This week, we revisit an episode from our archive that looked at the intersection of race, pain, and medicine. It might not be suitable for young children.]]></description>
+      <pubDate>Tue, 07 Feb 2017 00:00:30 -0500</pubDate>
+      <copyright>Copyright 2015 NPR - For Personal Use Only</copyright>
+      <guid>d01fa11b-c13d-48dd-9a5d-9786bc6e6dc2</guid>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[A recent paper found that black patients receive less pain medication for broken bones and cancer. Black children receive less pain medication than white children for appendicitis. The research is new, but the phenomenon is not. This week, we revisit an episode from our archive that looked at the intersection of race, pain, and medicine. It might not be suitable for young children.]]></itunes:summary>
+      <itunes:subtitle><![CDATA[A recent paper found that black patients receive less pain medication for broken bones and cancer. Black children receive less pain medication than white children for appendicitis. The research is new, but the phenomenon is not. This week, we revisit an episode from our archive that looked at the intersection of race, pain, and medicine. It might not be suitable for young children.]]></itunes:subtitle>
+      <itunes:image href="https://media.npr.org/assets/img/2017/02/06/anarcha3_wide-a5730a81d71fb5b0f6bf753f4f6d95d79950ab46.png?s=1400"/>
+      <itunes:duration>1663</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <enclosure url="https://play.podtrac.com/npr-510308/npr.mc.tritondigital.com/NPR_510308/media/anon.npr-mp3/npr/hiddenbrain/2017/02/20170206_hiddenbrain_20.mp3?orgId=1&amp;d=1663&amp;p=510308&amp;story=513789813&amp;t=podcast&amp;e=513789813&amp;ft=pod&amp;f=510308" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Episode 1: Switchtracking</title>
+      <description><![CDATA[The first episode of <em>Hidden Brain</em> explores switchtracking: a common pattern in conversations you'll be accusing your partner of in no time! Plus speedy science, a cup of tea and a song from Adam Cole.]]></description>
+      <pubDate>Tue, 22 Sep 2015 00:08:00 -0400</pubDate>
+      <copyright>Copyright 2015 NPR - For Personal Use Only</copyright>
+      <guid>2db32962-0a25-46f7-b4d3-edfd116836a4</guid>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[The first episode of <em>Hidden Brain</em> explores switchtracking: a common pattern in conversations you'll be accusing your partner of in no time! Plus speedy science, a cup of tea and a song from Adam Cole.]]></itunes:summary>
+      <itunes:subtitle><![CDATA[The first episode of <em>Hidden Brain</em> explores switchtracking: a common pattern in conversations you'll be accusing your partner of in no time! Plus speedy science, a cup of tea and a song from Adam Cole.]]></itunes:subtitle>
+      <itunes:image href="https://media.npr.org/assets/img/2015/09/21/npr_hiddenbrain_finalart3_72dpi_wide-988595db0b7b5eadbcb11ea1fc444132c5095f45.jpg?s=1400"/>
+      <itunes:duration>1845</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <enclosure url="https://play.podtrac.com/npr-510308/npr.mc.tritondigital.com/NPR_510308/media/anon.npr-mp3/npr/specials/2015/09/20150921_specials_switchtracking.mp3?orgId=1&amp;d=1845&amp;p=510308&amp;story=442278355&amp;t=podcast&amp;e=442278355&amp;ft=pod&amp;f=510308" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Hidden Brain: A Sneak Peek</title>
+      <description><![CDATA[Check out a few minutes of the latest podcast from NPR: Hidden Brain. Shankar Vedantam explores what happens when two people think they are talking about the same thing, but in reality are speeding down separate tracks. It usually doesn't end well.]]></description>
+      <pubDate>Fri, 04 Sep 2015 00:08:51 -0400</pubDate>
+      <copyright>Copyright 2015 NPR - For Personal Use Only</copyright>
+      <guid>43019bde-65c3-4163-bc64-738e58421498</guid>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Check out a few minutes of the latest podcast from NPR: Hidden Brain. Shankar Vedantam explores what happens when two people think they are talking about the same thing, but in reality are speeding down separate tracks. It usually doesn't end well.]]></itunes:summary>
+      <itunes:subtitle><![CDATA[Check out a few minutes of the latest podcast from NPR: Hidden Brain. Shankar Vedantam explores what happens when two people think they are talking about the same thing, but in reality are speeding down separate tracks. It usually doesn't end well.]]></itunes:subtitle>
+      <itunes:image href="https://media.npr.org/assets/img/2015/09/03/hiddenbrain_deepbluereverse3_wide-9b9d5766a120e292dd67bb7a3c87697bf22e3911.jpg?s=1400"/>
+      <itunes:duration>333</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <enclosure url="https://play.podtrac.com/npr-510308/npr.mc.tritondigital.com/NPR_510308/media/anon.npr-mp3/npr/specials/2015/09/20150903_specials_hbpreview.mp3?orgId=1&amp;d=333&amp;p=510308&amp;story=437290806&amp;t=podcast&amp;e=437290806&amp;ft=pod&amp;f=510308" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Welcome to the Hidden Brain Podcast</title>
+      <description><![CDATA[A conversation about life's unseen patterns. Discover what's inside your Hidden Brain... subscribe now.]]></description>
+      <pubDate>Sun, 09 Aug 2015 09:53:00 -0400</pubDate>
+      <copyright>Copyright 2015 NPR - For Personal Use Only</copyright>
+      <guid>b2ff8946-6bee-43a6-a87c-6924d6ca4d79</guid>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[A conversation about life's unseen patterns. Discover what's inside your Hidden Brain... subscribe now.]]></itunes:summary>
+      <itunes:subtitle><![CDATA[A conversation about life's unseen patterns. Discover what's inside your Hidden Brain... subscribe now.]]></itunes:subtitle>
+      <itunes:image href="https://media.npr.org/assets/img/2015/09/03/hiddenbrain_deepbluereverse3_wide-9b9d5766a120e292dd67bb7a3c87697bf22e3911.jpg?s=1400"/>
+      <itunes:duration>83</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <enclosure url="https://play.podtrac.com/npr-510308/npr.mc.tritondigital.com/NPR_510308/media/anon.npr-mp3/npr/specials/2015/09/20150903_specials_hbteaser.mp3?orgId=1&amp;d=83&amp;p=510308&amp;story=430418815&amp;t=podcast&amp;e=430418815&amp;ft=pod&amp;f=510308" length="0" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

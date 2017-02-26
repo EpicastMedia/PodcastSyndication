@@ -41,7 +41,14 @@ namespace Epicast.PodcastSyndication
             where TSyndicationFeed : PodcastSyndicationFeed, new()
         {
             var result = SyndicationFeed.Load<TSyndicationFeed>(reader);
-            reader = result.ElementExtensions.GetReaderAtElementExtensions();
+            ReadFeedExtensions(result);
+
+            return result;
+        }
+
+        private static void ReadFeedExtensions<TSyndicationFeed>(TSyndicationFeed result) where TSyndicationFeed : PodcastSyndicationFeed, new()
+        {
+            var reader = result.ElementExtensions.GetReaderAtElementExtensions();
 
             while (reader.IsStartElement())
             {
@@ -102,7 +109,6 @@ namespace Epicast.PodcastSyndication
                     reader.Skip();
                 }
             }
-            return result;
         }
 
         public static SyndicationCategory ReadCategory(XmlReader reader)

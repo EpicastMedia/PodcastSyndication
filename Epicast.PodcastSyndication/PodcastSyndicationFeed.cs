@@ -40,38 +40,38 @@ namespace Epicast.PodcastSyndication
         public static new TSyndicationFeed Load<TSyndicationFeed>(XmlReader reader)
             where TSyndicationFeed : PodcastSyndicationFeed, new()
         {
-            var result = SyndicationFeed.Load<TSyndicationFeed>(reader);
-            ReadFeedExtensions(result);
+            var feed = SyndicationFeed.Load<TSyndicationFeed>(reader);
+            ReadFeedExtensions(feed);
 
-            return result;
+            return feed;
         }
 
-        private static void ReadFeedExtensions<TSyndicationFeed>(TSyndicationFeed result) where TSyndicationFeed : PodcastSyndicationFeed, new()
+        private static void ReadFeedExtensions<TSyndicationFeed>(TSyndicationFeed feed) where TSyndicationFeed : PodcastSyndicationFeed, new()
         {
-            var reader = result.ElementExtensions.GetReaderAtElementExtensions();
+            var reader = feed.ElementExtensions.GetReaderAtElementExtensions();
 
             while (reader.IsStartElement())
             {
                 if (reader.IsStartElement(ITunesConstants.AuthorTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.Author = new TextSyndicationContent(reader.ReadElementContentAsString());
+                    feed.Author = new TextSyndicationContent(reader.ReadElementContentAsString());
                 }
                 else if (reader.IsStartElement(ITunesConstants.BlockTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.Block = new TextSyndicationContent(reader.ReadElementContentAsString());
+                    feed.Block = new TextSyndicationContent(reader.ReadElementContentAsString());
                 }
                 else if (reader.IsStartElement(ITunesConstants.CategoryTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.Categories.Add(ReadCategory(reader.ReadSubtree()));
+                    feed.Categories.Add(ReadCategory(reader.ReadSubtree()));
                     reader.Skip();
                 }
                 else if (reader.IsStartElement(ITunesConstants.CompleteTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.Complete = new TextSyndicationContent(reader.ReadElementContentAsString());
+                    feed.Complete = new TextSyndicationContent(reader.ReadElementContentAsString());
                 }
                 else if (reader.IsStartElement(ITunesConstants.ExplicitTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.Explicit = new TextSyndicationContent(reader.ReadElementContentAsString());
+                    feed.Explicit = new TextSyndicationContent(reader.ReadElementContentAsString());
                 }
                 else if (reader.IsStartElement(ITunesConstants.ImageTag, ITunesConstants.ITunesNamespace))
                 {
@@ -81,7 +81,7 @@ namespace Epicast.PodcastSyndication
                         {
                             if (reader.LocalName == ITunesConstants.HrefAttribute)
                             {
-                                result.ImageUrl = new Uri(reader.Value, UriKind.RelativeOrAbsolute);
+                                feed.ImageUrl = new Uri(reader.Value, UriKind.RelativeOrAbsolute);
                             }
                         }
                         reader.MoveToElement();
@@ -90,19 +90,19 @@ namespace Epicast.PodcastSyndication
                 }
                 else if (reader.IsStartElement(ITunesConstants.NewFeedUrlTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.NewFeedUrl = new Uri(reader.ReadElementContentAsString(), UriKind.RelativeOrAbsolute);
+                    feed.NewFeedUrl = new Uri(reader.ReadElementContentAsString(), UriKind.RelativeOrAbsolute);
                 }
                 else if (reader.IsStartElement(ITunesConstants.OwnerTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.Owner = ReadOwner(reader);
+                    feed.Owner = ReadOwner(reader);
                 }
                 else if (reader.IsStartElement(ITunesConstants.SubtitleTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.Subtitle = new TextSyndicationContent(reader.ReadElementContentAsString());
+                    feed.Subtitle = new TextSyndicationContent(reader.ReadElementContentAsString());
                 }
                 else if (reader.IsStartElement(ITunesConstants.SummaryTag, ITunesConstants.ITunesNamespace))
                 {
-                    result.Summary = new TextSyndicationContent(reader.ReadElementContentAsString());
+                    feed.Summary = new TextSyndicationContent(reader.ReadElementContentAsString());
                 }
                 else
                 {

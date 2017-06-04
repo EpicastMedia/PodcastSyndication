@@ -12,6 +12,6 @@ using (var xmlReader = new XmlTextReader(stream))
     feed = PodcastSyndicationFeed.Load<PodcastSyndicationFeed>(xmlReader);
 }
 
-Collection<Category> subcagtegories = feed.Categories.First().Subcategories;
+Collection<SyndicationCategory> subcagtegories = feed.Categories.First().Subcategories;
 Uri imageUrl = feed.ImageUrl;
 ```
